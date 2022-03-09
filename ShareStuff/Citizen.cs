@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace ShareStuff {
     class Citizen : Person {
         private string _Job;
+        private Citizen _Spouse; 
 
         public Citizen(string fNa, string lNa)
             :base(fNa,lNa){

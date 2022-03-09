@@ -8,5 +8,7 @@ namespace ShareStuff {
     interface IFlyable {
         string Fly();
         string Land();
+
+        void AddPassengers(int count);
     }
 }

@@ -62,6 +62,11 @@ namespace ShareStuff {
             return "I hits the ground";
         }
 
+        public void AddPassengers (int number) {
+
+        }
+
+
         public static Superhero operator +(Superhero h, Citizen c) {
             // shallow copy
             h.Identity = c;
